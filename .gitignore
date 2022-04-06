@@ -1,0 +1,20 @@
+# My environment files
+config/*
+config-enabled*
+!config/*.example
+!config/.gitattributes
+!.env.example
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# vscode
+.vscode/*
+
+# macOS files
+*.DS_Store
+
+# others
+.ipynb_checkpoints*
