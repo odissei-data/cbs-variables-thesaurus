@@ -1,9 +1,16 @@
+# Output file:
+cbs-variables-thesaurus.ttl
+
 # My environment files
 config/*
 config-enabled*
 !config/*.example
 !config/.gitattributes
 !.env.example
+pyvenv.cfg
+bin
+lib
+share
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
